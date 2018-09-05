@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="UTF-8">
+
+		<title>Bootstrap</title>
+
+		<script id="sap-ui-bootstrap"
+			src="../../resources/sap-ui-core.js"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-theme="sap_belize"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-resourceroots='{"NamespaceBootstrap.Bootstrap": "./"}'>
+		</script>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<!--		<script>
+			sap.ui.getCore().attachInit(function() {
+				new sap.m.Shell({
+					app: new sap.ui.core.ComponentContainer({
+						height : "100%",
+						name : "NamespaceBootstrap.Bootstrap"
+					})
+				}).placeAt("content");
+			});
+		</script>-->
+      <script
+         id="sap-ui-bootstrap"
+         src="/resources/sap-ui-core.js" 
+         data-sap-ui-theme="sap_belize"
+         data-sap-ui-libs="sap.m"
+         data-sap-ui-compatVersion="edge"
+         data-sap-ui-preload="async" >
+      </script>
+      <script>
+         sap.ui.getCore().attachInit(function () {
+             alert("UI5 is ready");
+         });
+      </script>		
+	</head>
+<!--
+	<body class="sapUiBody" id="content">
+	</body>
+-->
+   <body>
+      <p>Hello World</p>
+   </body>
+</html>
